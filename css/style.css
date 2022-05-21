@@ -1,0 +1,68 @@
+body {
+    background-image: url('../img/gato.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,
+h2 {
+    font-family: 'Koulen', cursive;
+    color: orange;
+}
+
+#pres {
+    margin: 0;
+    margin-left: 100px;
+    margin-top: 60px;
+    color: black;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#nov {
+    margin-top: 50px;
+}
+
+#listanov {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#listanov li {
+    margin: 4px;
+}
+
+#listanov li a {
+    font-family: 'Koulen', cursive;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.397);
+    font-size: 1.1rem;
+    color: black;
+    transition: all .2s;
+    display: block;
+}
+
+#listanov a:hover {
+    transition: .4s;
+    background-color: rgba(245, 222, 179, 0.548);
+}
+
+#listanov img {
+    height: 80px;
+    width: 120px;
+    margin: 0;
+}
+
+#whis {
+    color: blue;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+#mail, #telefono{
+    color: blue;
+}
