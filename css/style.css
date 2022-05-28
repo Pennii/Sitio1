@@ -1,5 +1,20 @@
-body {
-    background-image: url('../img/gato.jpg');
+#primerback {
+    margin: 0;
+    padding: 1rem;
+    background-image: url('../img/back1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#corte {
+    height: 10px;
+    background-color: black;
+}
+
+#segundoback {
+    margin-top: 0px;
+    padding: 1rem;
+    background-image: url('../img/back2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -11,7 +26,6 @@ h2 {
 }
 
 #pres {
-    margin: 0;
     margin-left: 100px;
     margin-top: 60px;
     color: black;
@@ -54,15 +68,22 @@ h2 {
     margin: 0;
 }
 
-#whis {
-    color: blue;
+#cont-hist {
+    margin-top: 100px;
 }
 
+.hist {
+    margin-left: 50px;
+}
+#nos{
+    margin-top: 50px;
+}
+#mapp{
+    margin-top: 50px;
+}
 footer {
     background-color: black;
     color: white;
     padding: 1rem;
 }
-#mail, #telefono{
-    color: blue;
-}
+
